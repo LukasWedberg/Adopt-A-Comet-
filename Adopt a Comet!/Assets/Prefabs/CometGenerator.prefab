@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4245574865694427775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 14702991288013869}
+  - component: {fileID: 913830373224823033}
+  - component: {fileID: 6660997019483115552}
+  - component: {fileID: 1473723666393433434}
+  - component: {fileID: 591204441751014264}
+  m_Layer: 0
+  m_Name: CometGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &14702991288013869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4245574865694427775}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.8317842, y: 4.1174555, z: -10.793558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &913830373224823033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4245574865694427775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ddf4775cefd094081c240457984c70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidModel: {fileID: 5060746259825025512, guid: f85a6e158008f3b44928847fd04869fe, type: 3}
+  cometModel: {fileID: 8435289876103583692, guid: 21ee4dba7fa94ef41b51e9ed69425f4a, type: 3}
+  eyeModel: {fileID: 8600076427098145085, guid: 71ff5f5d7909c9944b8c09dc3e0fd62d, type: 3}
+--- !u!114 &6660997019483115552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4245574865694427775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9bf6c9f26dded409c93d795ac5eca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://api.github.com/emojis
+--- !u!114 &1473723666393433434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4245574865694427775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2e8ae2ec5c56f42b4416d8f9386798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  builtInJson: {fileID: 4900000, guid: cda03237b7909ce4f9ee311e5d88b556, type: 3}
+--- !u!114 &591204441751014264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4245574865694427775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7537d9ca920812b408fef8cb05fea17a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  builtInJson: {fileID: 4900000, guid: 70e0176c66ea3d74c8c4b314aa693205, type: 3}
